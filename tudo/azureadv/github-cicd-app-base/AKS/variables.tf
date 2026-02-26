@@ -1,18 +1,18 @@
 variable "resource_group_location" {
   type        = string
-  default     = "eastus"
+  default     = "brazilsouth"
   description = "Location of the resource group."
 }
 
 variable "resource_group_name" {
   type        = string
-  default     = "rg-aks-dio"
+  default     = "rg-farmacia-platform"
   description = "resource group name"
 }
 
 variable "cluster_name" {
   type        = string
-  default     = "cluster-aks-dio"
+  default     = "aks-farmacia-platform"
   description = "Cluster name"
 }
 
@@ -25,7 +25,7 @@ variable "node_count" {
 variable "username" {
   type        = string
   description = "The admin username for the new cluster."
-  default     = "azureadmin"
+  default     = "aksplatformadmin"
 }
 
 variable "vm_size" {

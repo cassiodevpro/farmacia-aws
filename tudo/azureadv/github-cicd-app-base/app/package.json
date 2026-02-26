@@ -1,13 +1,13 @@
 {
-  "name": "bootcamp-node-project",
-  "version": "1.0",
-  "description": "",
+  "name": "farmacia-platform-service",
+  "version": "2.1.0",
+  "description": "Aplicacao Node.js base para deploy com Docker e AKS",
   "main": "server.js",
   "scripts": {
     "test": "jest --ci --reporters=default --reporters=jest-junit",
     "start": "node server.js"
   },
-  "author": "DLB",
+  "author": "Equipe Farmacia Cloud",
   "license": "ISC",
   "dependencies": {
     "express": "4.17.1",

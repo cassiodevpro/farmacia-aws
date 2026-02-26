@@ -19,7 +19,7 @@ Este projeto usa Terraform para provisionar um cluster Kubernetes no Azure Kuber
 1. Clone o repositório e navegue até o diretório do projeto:
 
 ```bash
-git clone https://github.com/ecastrojr/github-cicd-app-base
+git clone https://github.com/venelouis/Desafios-de-Projeto-DIO
 cd github-cicd-app-base
 ```
 
@@ -29,11 +29,11 @@ Certifique-se de que as variáveis em variables.tf estão configuradas conforme 
 
 Exemplo de terraform.tfvars:
 ```bash
-resource_group_location = "eastus"
-resource_group_name     = "rg-aks-dio"
-cluster_name            = "cluster-aks-dio"
+resource_group_location = "brazilsouth"
+resource_group_name     = "rg-farmacia-platform"
+cluster_name            = "aks-farmacia-platform"
 node_count              = 1
-username                = "azureadmin"
+username                = "aksplatformadmin"
 ```
 
 ## ⚙️ Passo a Passo para Provisionar o AKS
@@ -93,4 +93,4 @@ Observações
 
 ## 🧑‍💻 Autor
 
-Este repositório foi criado e mantido por [Alex Castro](https://github.com/ecastrojr).
+Este repositório foi adaptado para estudos e laboratórios de CI/CD e infraestrutura em nuvem.

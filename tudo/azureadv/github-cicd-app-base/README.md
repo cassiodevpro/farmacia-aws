@@ -1,6 +1,6 @@
-# 🛠️ Pipelines de Deploy da App Node.js 🚀
+# 🛠️ Pipelines de Deploy da Farmácia Platform Service 🚀
 
-Este repositório contém dois cenários de **pipeline** para o deploy de uma aplicação em **Node.js**. Abaixo, você encontrará informações sobre cada cenário e como eles são configurados.
+Este repositório contém dois cenários de **pipeline** para o deploy de uma aplicação em **Node.js** com identidade própria. Abaixo, você encontrará informações sobre cada cenário e como eles são configurados.
 
 ## 🌐 Cenário 1: Deploy usando Docker e GitHub Actions
 Na **branch** `feature/Docker-github-actions`, o pipeline realiza as seguintes etapas:
@@ -8,7 +8,7 @@ Na **branch** `feature/Docker-github-actions`, o pipeline realiza as seguintes e
 - **Build** da imagem Docker.
 - **Execução** da aplicação em um contêiner Docker.
 
-[Veja o código da branch `feature/Docker-github-actions`](https://github.com/CASTROJR/github-cicd-app-base/tree/feature/Docker-github-actions)
+[Veja o código da branch `feature/Docker-github-actions`](https://github.com/venelouis/Desafios-de-Projeto-DIO/tree/main/tudo/azureadv/github-cicd-app-base)
 
 ### Como Funciona:
 1. O pipeline testa a aplicação para garantir que ela está funcionando corretamente.
@@ -23,7 +23,7 @@ Na **branch** `feature/Kubernetes-github-actions`, o pipeline faz o seguinte:
 - **Build** de uma imagem Docker.
 - **Deploy** da imagem no Kubernetes hospedado no **Azure Kubernetes Service (AKS)**.
 
-[Veja o código da branch `feature/Kubernetes-github-actions`](https://github.com/CASTROJR/github-cicd-app-base/tree/feature/Kubernetes-github-actions)
+[Veja o código da branch `feature/Kubernetes-github-actions`](https://github.com/venelouis/Desafios-de-Projeto-DIO/tree/main/tudo/azureadv/github-cicd-app-base)
 
 ### Como Funciona:
 1. O pipeline realiza os testes da aplicação.
@@ -45,4 +45,4 @@ Se você tem sugestões de melhorias ou quer contribuir com o projeto, fique à 
 
 ---
 
-### 🎉 Divirta-se com o deploy e experimente as funcionalidades de CI/CD!
+### 🎉 Explore o deploy e evolua os fluxos de CI/CD conforme seu cenário!
